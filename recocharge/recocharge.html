@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords"content="Recocharge,公共料金,電気代,ガス代,水道代,記録,家計簿,"/>
+<script type="text/javascript" src="recocharge.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js"></script>
+<title>Recocharge~公共料金を記録~</title>
+<script type = "text/javascript">
+<!--
+	if(navigator.userAgent.indexOf('iphone') > 0|| 
+		navigator.userAgent.indexOf('ipod') > 0	){
+	 			document.write('<link rel="stylesheet" href="sp_recocharge.css">');
+					}else if(navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0){
+	 					document.write('<link rel="stylesheet" href="Android_recocharge.css">');
+					}else{
+						document.write('<link rel="stylesheet" href="recocharge.css">');
+	}
+//-->
+</script>
+
+</head>
+
+<body>
+  <div id="header">
+    <a href="recocharge.html"><img src="recocharge_logo.png" alt="レコチャージロゴ" id="logo"></a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-size="large" data-hashtags="recocharge">ツイート</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+ 
+  <div id="contents">
+      <pre id="midashi_howto">使い方</pre>
+          <div id="description_use">
+<pre> 
+1、記録したい公共料金の種類を選択します。
+2、金額を入力。必ず、半角数字で入力してください。全角数字は、エラーになります。
+3、記録ボタンをクリック。計測期間は、電気代とガス代を1ヶ月間、水道代を2ヶ月として自動で計算します。
+4、Evernote、各種メモ帳にコピー、貼り付けることができます。 </pre>
+                  </div>
+                      <div id="kirokuformOut">
+                          <pre id="midashi_kiroku">記録してみよう</pre>
+                              <div id="kirokuformIn">
+                                      <form id="kirokubox" name="kirokubox">
+                                      <pre id="ryoukin_select">公共料金の種類を選ぶ</pre>
+                                        
+                                <select id="utilityCharges" name="utilityCharges">
+                                <option value="電気">電気代</option>
+                                 <option value="ガス">ガス代</option>
+                                  <option value="水道">水道代</option>
+                                </select>
+        
+                      <pre id="input_kingaku">金額を入力</pre>
+                  <pre id="description_kingaku">(＊　半角数字)</pre>
+                                                
+               <input id="kingaku" name="kingaku" required="" type="number" />     
+                    
+      <div id="kiroku_button">
+        <input id="utilityCharges_kiroku" name="utilityCharges_kiroku" onclick="utilityCharges_keisan()" type="button" value="記録する" />
+      </div>
+
+    </form>
+    </div>
+    </div>
+
+    <div id="output"></div>
+  </div>
+  <div id="footer">
+    <pre>Copyright (C) All Right Reserved　Recocharge</pre>
+  </div>
+
+</body>
+
+</html>
