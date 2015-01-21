@@ -1,0 +1,154 @@
+html{
+font-size =6.25%; 
+}
+
+body{	
+	background-color:#1E93C1;
+	color : #000000;
+}
+
+#header{
+	width:auto;
+	height:80px;
+	background-color:#1e93c1;
+	margin:0px 0px 0px 0px;
+	padding:0px 2px 2px 2px;
+}
+
+#logo{
+	width:190px;
+	height:50px;
+	margin-top: 0px;
+	margin-left:2%;
+}
+
+.twitter-share-button{
+	margin-top: -2px;
+	margin-left:3%;
+}
+
+#contents{
+	width : auto;
+	min-height:800px;
+	color : #000000;
+	margin-right: 2%;
+	margin-left : 2%;
+	margin-top:2.25%; 
+	margin-bottom: 1.5%;
+	background-color :#ffffff;
+	border-radius: 5px;
+}
+
+#midashi_howto{
+	width: auto;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #18A8CB;
+    	border-left: 7px solid #18A8CB;
+    	margin: 2% 0% 5% 1%;
+    	padding: 5px 8px;
+}
+
+#description_use1{
+	width:auto;
+	margin:5% 3% 5% 3%;
+}
+
+#description_use2{
+	font-size: 1.2rem;
+	word-wrap: break-word;
+}
+
+#kirokuformOut{
+	width:330px;
+}
+
+#kirokuformIn{
+	margin-left: 3%;
+}
+
+#midashi_kiroku{
+	width:300px;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #18A8CB;
+    	border-left: 7px solid #18A8CB;
+    	margin: 0% 0% 0% 1%;
+    	padding: 5px 8px;
+}
+
+#ryoukin_select { 
+	font-size: large;
+	font-weight: bold;
+		}
+
+#utilityCharges{
+	width:150px;
+	height:30px;
+}
+
+#input_kingaku { 
+	font-size: large;
+	font-weight:bold;
+	margin-top:3%; 
+	}
+
+#description_kingaku{
+	margin-top: -4%;
+}
+
+#kingaku{
+	width: 150px;
+	height:30px;
+}
+
+
+#utilityCharges_kiroku{
+	background: -moz-linear-gradient(top,#DDDDDD 0%,#EDEDED);
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDDDDD), to(#EDEDED));
+	border: 1px solid #000;
+	color:#000;
+	padding: 0px 0px;
+	text-decoration: none;
+    	font-weight: bold;
+    	text-align: center;
+    	font-size: 0.813em;
+    	width: 120px;
+    	height:35px;
+    	border-radius: 5px;
+	margin :30% 0% 0% 0%;
+	}
+
+#utilityCharges_kiroku:hover{
+	 cursor:pointer;
+    filter: alpha(opacity=80);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=0)";  /* ie 8 */
+    -moz-opacity:0.8;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.8;              /* Safari 1.x */
+    opacity:0.8;
+    zoom:1;
+	}	
+
+
+#output {
+	width : 320px;
+	margin: 0% 0% 0% 0%;
+}
+
+.output_hizuke { 
+	font-size: large;
+	font-weight:bold;
+	margin-left 3%;
+	}
+
+.output_kingaku{
+	font-size: 1.2rem;
+}
+
+#footer{
+	width: auto;
+	background-color :#DDDDDD;
+	color : #000;
+	margin:0px 0px 0px 0px; 
+	padding : 10px 0px 10px 0px;
+	text-align : center;
+
+}
