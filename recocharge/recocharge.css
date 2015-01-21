@@ -43,9 +43,12 @@ body{
     margin: 0% 0% -3.5% 1%;
     padding: 5px 8px;
 }
-
-#description_use{
+#description_use1{
 	width: 600px;
+	margin : 5% 0% 5% 3%;
+}
+
+#description_use2{
 	margin-left: 3%;
 	word-wrap: break-word;
 }
