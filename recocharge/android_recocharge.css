@@ -41,6 +41,11 @@ body{
 	border-radius: 5px;
 }
 
+#description{
+	width: auto;
+}
+
+
 #midashi_howto{
 	width: auto;
 	font-size: 1.6rem;

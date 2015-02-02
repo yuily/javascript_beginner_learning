@@ -35,6 +35,11 @@ body{
 	border-radius: 15px;
 }
 
+#description{
+	width: 600px;
+}
+
+
 #midashi_howto{
 	width: 600px;
 	font-size: 1.000em;
@@ -43,12 +48,8 @@ body{
     margin: 0% 0% -3.5% 1%;
     padding: 5px 8px;
 }
-#description_use1{
-	width: 600px;
-	margin : 5% 0% 5% 3%;
-}
 
-#description_use2{
+#description_use{
 	margin-left: 3%;
 	word-wrap: break-word;
 }

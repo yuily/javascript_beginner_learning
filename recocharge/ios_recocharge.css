@@ -39,6 +39,11 @@ body{
 	border-radius: 5px;
 }
 
+#description_use{
+	width: auto
+}
+
+
 #midashi_howto{
 	width: auto;
 	font-size: 1.6rem;
@@ -48,12 +53,7 @@ body{
     	padding: 5px 8px;
 }
 
-#description_use1{
-	width:auto;
-	margin:5% 3% 5% 3%;
-}
-
-#description_use2{
+#description_use{
 	font-size: 1.2rem;
 	word-wrap: break-word;
 }
