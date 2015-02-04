@@ -1,10 +1,7 @@
-html{
-font-size = 6.25%; 
-}
-
-body{	
+hbody{	
 	background-color:#1E93C1;
 	color : #000000;
+        font-size:62.5%;
 }
 
 #header{
@@ -23,8 +20,7 @@ body{
 }
 
 .twitter-share-button{
-	margin-top: -2px;
-	margin-left:3%;
+	
 }
 
 #contents{
@@ -36,34 +32,34 @@ body{
 	margin-top:2.25%; 
 	margin-bottom: 1.5%;
 	background-color :#ffffff;
-	font-size: 1.4rem;
-	line-height: 1.5em;
 	border-radius: 5px;
 }
 
+
 #description{
-	width: auto;
+	width:auto;
 }
 
 
 #midashi_howto{
 	width: auto;
-	font-size: 1.6rem;
+	font-size: 3em;
 	border-bottom: 1px solid #18A8CB;
     	border-left: 7px solid #18A8CB;
-    	margin: 2% 0% -10% 1%;
+    	margin: 0% 0% -3% 1%;
     	padding: 5px 8px;
 }
 
+
 #description_use{
-	width:auto;
-	margin-left: 3%;
-	margin-right:3%;
+	font-size: 2em;
+        margin:0% 2% 3% 2%;
 	word-wrap: break-word;
 }
 
 #kirokuformOut{
-	width:330px;
+	width:300px;
+background-color:#0000000;
 }
 
 #kirokuformIn{
@@ -71,8 +67,8 @@ body{
 }
 
 #midashi_kiroku{
-	width:300px;
-	font-size: 1.6rem;
+	width:320px;
+	font-size: 3em;
 	border-bottom: 1px solid #18A8CB;
     	border-left: 7px solid #18A8CB;
     	margin: 0% 0% 0% 1%;
@@ -96,6 +92,7 @@ body{
 	}
 
 #description_kingaku{
+        font-size:1.7em;
 	margin-top: -4%;
 }
 
@@ -112,13 +109,12 @@ body{
 	color:#000;
 	padding: 0px 0px;
 	text-decoration: none;
-    	font-weight: bold;
     	text-align: center;
-    	font-size: 0.813em;
+    	font-size: 2.5em;
     	width: 120px;
-    	height:35px;
+    	height:45px;
     	border-radius: 5px;
-	margin :30% 0% 0% 0%;
+	margin :-13% 0% 0% 65%;
 	}
 
 #utilityCharges_kiroku:hover{
@@ -132,18 +128,23 @@ body{
 	}	
 
 
-#output {
+#output{
 	width : 320px;
-	margin: 0% 0% 0% 0%;
+	margin: 10% 0% 0% 0%;
 }
 
 .output_hizuke { 
-	font-size: large;
-	font-weight:bold;
-	margin-left 3%;
+        width: auto;
+	font-size: 3em;
+	border-bottom: 1px solid #18A8CB;
+    	border-left: 7px solid #18A8CB;
+    	margin: 0% 0% 0% 1%;
+    	padding: 5px 8px;
 	}
 
 .output_kingaku{
+	font-size: 2.5em;
+        margin-left: 2%;
 }
 
 #footer{

@@ -37,8 +37,7 @@ body{
 
 #description{
 	width: 600px;
-}
-
+	}
 
 #midashi_howto{
 	width: 600px;
@@ -50,6 +49,7 @@ body{
 }
 
 #description_use{
+	width: 600px;
 	margin-left: 3%;
 	word-wrap: break-word;
 }
@@ -153,3 +153,4 @@ body{
 	padding : 10px 0px 10px 0px;
 	text-align : center;
 }
+
